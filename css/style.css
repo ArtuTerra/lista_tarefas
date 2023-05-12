@@ -1,0 +1,68 @@
+html,
+body,
+h1,
+h2,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+  margin: 0 auto;
+  text-align: center;
+}
+
+html,
+body {
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 65px 1fr;
+  grid-template-columns: 1fr 500px 1fr;
+  background-image: url(../img/background3.png);
+}
+.titulo {
+  padding-top: 30px;
+  display: block;
+  grid-column: 2/3;
+  background: rgb(58, 70, 79, 0.95);
+}
+.conteiner {
+  background-color: rgb(58, 70, 79, 0.95);
+  grid-column: 2/3;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#input {
+  width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#adicionarAfazer {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.afazeres {
+  margin-top: 25px;
+}
+
+.style-paragrafo {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
