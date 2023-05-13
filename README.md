@@ -1,9 +1,10 @@
-Lista de tarefas (Afazeres) feito por ArtuTerra
+# Lista de tarefas 
+## Feito por Arthur Terra
 
 Meu primeiro website utilizando Javascript.
 Website feito para praticar e aprender sobre Javascript.
 
-Como funciona:
+## Como funciona:
 
 Escreva o uma tarefa.
 Aperte o botão + ou Enter no seu teclado, a tarefa estará agora na lista
