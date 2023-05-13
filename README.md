@@ -1,6 +1,7 @@
 # Lista de tarefas 
 ## Feito por Arthur Terra
 
+### https://artuterra.github.io/lista_tarefas/
 Meu primeiro website utilizando Javascript.
 Website feito para praticar e aprender sobre Javascript.
 
