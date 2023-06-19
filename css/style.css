@@ -29,7 +29,7 @@ body {
 
 .titulo {
   padding-top: 30px;
-  display: block;
+  display: grid;
   grid-column: 2/3;
   background: rgb(58, 70, 79, 0.95);
 }
@@ -60,12 +60,19 @@ body {
 
 .afazeres {
   margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
 }
 
 .style-paragrafo {
   margin: 0;
   cursor: pointer;
   font-size: 20px;
+  display: inline-block;
+  background-color: rgb(58, 70, 79, 0.8);
+  padding: 5px 20px;
+  border: solid rgb(58, 50, 79, 1) 2px;
+  grid-column: 2 / 3;
 }
 
 @media (max-width: 500px) {
